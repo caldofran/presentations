@@ -1,0 +1,59 @@
+▿ ReportProblemViewState
+  ▿ loadingState: LoadingState<FormViewState, FormViewStateError>
+    ▿ loaded: FormViewState
+      - title: "Problem details"
+      ▿ summary: Optional<String>
+        - some: "Describe with more details the problem you are experiencing."
+      ▿ fieldsState: 10 elements
+        ▿ FieldState
+          - header: "Describe your problem"
+        ▿ FieldState
+          ▿ textInput: TextInputState
+            ▿ identifier: description
+              - rawValue: "description"
+            - placeholder: "Your problem"
+            ▿ validation: AnimatedTextInputValidation
+              ▿ both: ClosedRange(10...320)
+                - lowerBound: 10
+                - upperBound: 320
+            - text: Optional<String>.none
+            - error: Optional<String>.none
+        ▿ FieldState
+          - header: "Document example"
+        ▿ FieldState
+          - sampleText: "I, <b>name and surname</b>, present my voluntary resignation."
+        ▿ FieldState
+          - header: "Your last day"
+        ▿ FieldState
+          ▿ dateInput: DateInputState
+            ▿ identifier: last-day-date
+              - rawValue: "last-day-date"
+            - placeholder: "Select a date"
+            - date: Optional<Date>.none
+        ▿ FieldState
+          - header: "Send a picture of the signed document"
+        ▿ FieldState
+          ▿ imagePicker: ImagePickerState
+            ▿ identifier: signed-letter-image
+              - rawValue: "signed-letter-image"
+            - placeholder: "The picture shouldn\'t be blurred"
+            - image: Image.empty
+            - isUploading: false
+        ▿ FieldState
+          - header: "Reminder"
+        ▿ FieldState
+          ▿ information: InformationState
+            - text: "You will receive your payment after 10 days from resignment"
+            ▿ assetURL: https://jobandtalent.zepeling.com/resource/bill-icon.jpg
+              - _url: https://jobandtalent.zepeling.com/resource/bill-icon.jpg
+      - isSendingForm: false
+  ▿ identifier: foo
+    - rawValue: "foo"
+  ▿ context: Optional<HelpContext>
+    ▿ some: HelpContext
+      ▿ context: 1 key/value pair
+        ▿ (2 elements)
+          - key: "breadcrumb"
+          ▿ value: 2 elements
+            - "topic"
+            - "foo"
