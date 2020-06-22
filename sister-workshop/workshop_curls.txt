@@ -1,0 +1,42 @@
+Index
+-----------
+
+curl 'https://api.staging.jobandtalent.com/v3/worker/workers?auth_token=m7MnCzBYNy5pr5TAhGos' \
+-H 'Accept: */*' \
+-H 'Content-Type: application/json' \
+-H 'Host: api.staging.jobandtalent.com' \
+-H 'X-Client: Jobandtalent-iOS-v10.9.0' \
+-H 'Accept-Language: en' \
+-H 'User-Agent: Jobandtalent/139 CFNetwork/1125.2 Darwin/19.4.0' \
+-H 'Ch-Dpr: 2.0' \
+-H 'Connection: keep-alive' \
+-H 'X-Device-Uuid: 44F6BF81-4420-4CF0-A6CE-7187EACA853C'
+
+
+Get Caldo
+------------
+
+curl 'https://api.staging.jobandtalent.com/v3/worker/workers/caldo-id?auth_token=m7MnCzBYNy5pr5TAhGos' \
+-H 'Accept: */*' \
+-H 'Content-Type: application/json' \
+-H 'Host: api.staging.jobandtalent.com' \
+-H 'X-Client: Jobandtalent-iOS-v10.9.0' \
+-H 'Accept-Language: en' \
+-H 'User-Agent: Jobandtalent/139 CFNetwork/1125.2 Darwin/19.4.0' \
+-H 'Ch-Dpr: 2.0' \
+-H 'Connection: keep-alive' \
+-H 'X-Device-Uuid: 44F6BF81-4420-4CF0-A6CE-7187EACA853C'
+
+Get Error
+------------
+
+curl 'https://api.staging.jobandtalent.com/v3/worker/workers/any-id?auth_token=m7MnCzBYNy5pr5TAhGos' \
+-H 'Accept: */*' \
+-H 'Content-Type: application/json' \
+-H 'Host: api.staging.jobandtalent.com' \
+-H 'X-Client: Jobandtalent-iOS-v10.9.0' \
+-H 'Accept-Language: en' \
+-H 'User-Agent: Jobandtalent/139 CFNetwork/1125.2 Darwin/19.4.0' \
+-H 'Ch-Dpr: 2.0' \
+-H 'Connection: keep-alive' \
+-H 'X-Device-Uuid: 44F6BF81-4420-4CF0-A6CE-7187EACA853C'
